@@ -8,11 +8,8 @@ def f(x,a,b,c):
     return a*x**2+b*x+c
 
 xlist = np.linspace(-10,10,num=1000)
-# xlist = np.arange(-10,10.1,.1)
 
-a=5
-b=1
-c=4
+a,b,c=5,1,4
 ylist = f(xlist,a,b,c)
 
 plt.figure(num=0,dpi=120)
